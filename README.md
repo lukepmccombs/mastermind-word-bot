@@ -4,14 +4,14 @@ Ignore the committed token, it does nothing
 
 ## Usage
 This repository is built as a Dockerfile with three environment variables that can be set.
-Only 
+Only `DISCORD_TOKEN` must be set.
 :
 
 | Environment Variable | Description |
 | --- | --- |
-| LOCALISATION | The localisation used for the bot's replies. Only `en` is available for now. |
-| COMMAND_PREFIX | The prefix needed for bot commands. This can be any string, and defaults to `%` |
-| DISCORD_TOKEN | The discord token corresponding to the bot you want to use. |
+| `LOCALISATION` | The localisation used for the bot's replies. Only `en` is available for now. |
+| `COMMAND_PREFIX` | The prefix needed for bot commands. This can be any string, and defaults to `%` |
+| `DISCORD_TOKEN` | The discord token corresponding to the bot you want to use. |
 
 
 Once the bot has been started, it can be used in the following way:
