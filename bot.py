@@ -26,6 +26,8 @@ def make_botuser_handler(bot):
     """Makes a handler for ignoring bot user commands"""
     async def handle_message(message):
         if message.author.bot:
+            if message.content.startswith(command_prefix):
+                log("[WARN] A bot user with id {} tried to send a command to this bot.")
             return
         await bot.process_commands(message)
 
