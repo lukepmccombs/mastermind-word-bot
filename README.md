@@ -1,6 +1,5 @@
 # Mastermind Word Bot
 A wordle clone formatted as a bot for use on private discord servers.
-Ignore the committed token, it does nothing
 
 ## Usage
 This repository is built as a Dockerfile with three environment variables that can be set.
@@ -25,3 +24,14 @@ The bot will reply with your results, but if you want to show off to your friend
 At any time use `%quit` to preemptively end a game.
 
 For more commands with detailed descriptions of their uses and paramaters, use `%help`.
+
+### Localisation
+Want to localise this bot to another language?
+
+Make a json file similar to `local/en.json`, and translate it to your language.
+
+Any uses of `%s` will be replaced with `COMMAND_PREFIX`, and entries must contain all instances of `{<val>}` as in `en.json`.
+
+Lastly, name your file `<localisation string>.json` and place it in `local`.
+
+If you would like your localisation to be added to this repository, simply make a request!
