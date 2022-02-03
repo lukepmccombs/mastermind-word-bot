@@ -8,7 +8,7 @@ Only
 :
 
 | Environment Variable | Description |
-| --- | --- | --- |
+| --- | --- |
 | LOCALISATION | The localisation used for the bot's replies. Only `en` is available for now. |
 | COMMAND_PREFIX | The prefix needed for bot commands. This can be any string, and defaults to `%` |
 | DISCORD_TOKEN | The discord token corresponding to the bot you want to use. |
