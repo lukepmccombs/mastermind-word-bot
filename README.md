@@ -5,7 +5,7 @@ Ignore the committed token, it does nothing
 ## Usage
 This repository is built as a Dockerfile with three environment variables that can be set.
 Only `DISCORD_TOKEN` must be set.
-:
+
 
 | Environment Variable | Description |
 | --- | --- |
