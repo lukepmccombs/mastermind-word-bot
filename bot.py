@@ -241,7 +241,7 @@ class MastermindWordBot(commands.Cog):
             
             await self.send_message(ctx, localisation["daily_brag"].format(
                 turns=user.daily.current_guesses(),
-                path=user.daily.res_path_string()
+                path=user.daily.path_string()
             ))
 
         elif user.last_game:
@@ -249,7 +249,7 @@ class MastermindWordBot(commands.Cog):
                 word=user.last_game.word,
                 turns=user.last_game.current_guesses(),
                 maxTurns=user.game.max_guess if user.game.max_guess >= 0 else "∞",
-                path=user.last_game.res_path_string()
+                path=user.last_game.path_string()
             ))
 
         else:
