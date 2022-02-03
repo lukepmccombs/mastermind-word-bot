@@ -1,6 +1,5 @@
 # Mastermind Word Bot
 A wordle clone formatted as a bot for use on private discord servers.
-Ignore the committed token, it does nothing
 
 ## Usage
 This repository is built as a Dockerfile with three environment variables that can be set.
