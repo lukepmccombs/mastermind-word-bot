@@ -32,4 +32,6 @@ Make a json file similar to `local/en.json`, and translate it to your language.
 
 Any uses of `%s` will be replaced with `COMMAND_PREFIX`, and entries must contain all instances of `{<val>}` as in `en.json`.
 
+Lastly, name your file `<localisation string>.json` and place it in `local`.
+
 If you would like your localisation to be added to this repository, simply make a request!
