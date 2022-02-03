@@ -24,3 +24,12 @@ The bot will reply with your results, but if you want to show off to your friend
 At any time use `%quit` to preemptively end a game.
 
 For more commands with detailed descriptions of their uses and paramaters, use `%help`.
+
+### Localisation
+Want to localise this bot to another language?
+
+Make a json file similar to `local/en.json`, and translate it to your language.
+
+Any uses of `%s` will be replaced with `COMMAND_PREFIX`, and entries must contain all instances of `{<val>}` as in `en.json`.
+
+If you would like your localisation to be added to this repository, simply make a request!
