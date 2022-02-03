@@ -175,7 +175,8 @@ class MastermindWordBot(commands.Cog):
 
         except mastermind.MastermindMaxGuess:
             await self.send_message(ctx,
-                localisation["guess_max_daily" if user.game == self.daily_game else "guess_max"]
+                localisation["guess_max_daily"] if user.game == self.daily_game
+                    else localisation["guess_max"].format(user.game.word)
             )
             user.game = None
             log("[INFO] User {}({}) completed a game.".format(ctx.author.display_name, ctx.author.id))
